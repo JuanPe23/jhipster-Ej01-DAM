@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "pelicula",
+            "otherEntityName": "pelicula",
+            "relationshipType": "one-to-one",
+            "relationshipValidateRules": [],
+            "otherEntityField": "titulo",
+            "ownerSide": true,
+            "useJPADerivedIdentifier": false,
+            "otherEntityRelationshipName": "estreno"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "fecha",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "lugar",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "4",
+            "fieldValidateRulesMaxlength": "150"
+        }
+    ],
+    "changelogDate": "20211014204447",
+    "dto": "no",
+    "searchEngine": "elasticsearch",
+    "service": "no",
+    "entityTableName": "estreno",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

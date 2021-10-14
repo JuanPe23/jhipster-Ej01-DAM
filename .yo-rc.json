@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "es.curso.miproyecto"
+    },
+    "jhipsterVersion": "6.3.1",
+    "applicationType": "monolith",
+    "baseName": "miproyecto",
+    "packageName": "es.curso.miproyecto",
+    "packageFolder": "es/curso/miproyecto",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWRkOThlZjY3ZWMzMzZhYjllOTQwNWZhMzg3YzI0NTQ1MmM4ZTRhNDRjNGFjZjhlM2I0MTE0ZWVjYjY2Mjg0ZTk4ODY5ZDRkZGMxMWU3YzI2NzI1MWQ1M2RmMTI4ZGMyZmExOTg5Y2FmNzExNmMyNDJkNzFiYTkxZmI5NDY3ZDU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "darkly",
+    "clientThemeVariant": "dark",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
